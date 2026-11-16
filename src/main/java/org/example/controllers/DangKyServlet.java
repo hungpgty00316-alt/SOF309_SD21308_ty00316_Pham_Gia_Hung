@@ -49,9 +49,9 @@ public class DangKyServlet extends HttpServlet {
         String phone = req.getParameter("phone");
         String email = req.getParameter("email");
 
-        //Loại bỏ khoảng trắng đầu và cuối
-        password = password.trim();
-        confirmPassword = confirmPassword.trim();
+        //Loại bỏ khoảng trắng đầu và cuối (null-safe: form có thể thiếu hẳn field)
+        password = password == null ? "" : password.trim();
+        confirmPassword = confirmPassword == null ? "" : confirmPassword.trim();
 
         //Kiểm tra mật khẩu không được để trống sau khi trim
         if (password.isEmpty()) {
