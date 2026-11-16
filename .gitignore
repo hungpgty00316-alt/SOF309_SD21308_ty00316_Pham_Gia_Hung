@@ -12,6 +12,7 @@ Thumbs.db
 *.iml
 .vscode/
 *.sublime-project
+.smarttomcat/
 
 # Java / Maven / Gradle
 target/
