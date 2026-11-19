@@ -117,7 +117,7 @@
             <a href="${_abCtx}/admin/profile" class="menu-item${adminActive eq '/admin/profile' ? ' active' : ''}">
                 <span class="mi-left"><span class="mi-icon material-symbols-outlined">account_circle</span><span class="mi-label">Hồ sơ Admin</span></span>
             </a>
-            <a href="${_abCtx}/admin/doi-mat-khau" class="menu-item${adminActive eq '/admin/doi-mat-khau' ? ' active' : ''}">
+            <a href="${_abCtx}/admin/change-password" class="menu-item${adminActive eq '/admin/change-password' ? ' active' : ''}">
                 <span class="mi-left"><span class="mi-icon material-symbols-outlined">lock_reset</span><span class="mi-label">Đổi mật khẩu</span></span>
             </a>
             <a href="${_abCtx}/admin/tham-so-van-hanh" class="menu-item${adminActive eq '/admin/tham-so-van-hanh' ? ' active' : ''}">

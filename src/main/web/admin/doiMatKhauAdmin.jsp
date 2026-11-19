@@ -52,7 +52,7 @@
 </head>
 <body class="dash-body admin-theme">
 
-<c:set var="adminActive" value="/admin/doi-mat-khau" scope="request"/>
+<c:set var="adminActive" value="/admin/change-password" scope="request"/>
 <%@ include file="_adminSidebar.jspf" %>
 
 <main class="main">
